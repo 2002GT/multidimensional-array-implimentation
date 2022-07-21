@@ -1,0 +1,26 @@
+//  -------MULTIDiMSIONAL ARRAY IMPLEMENTATION---------
+
+
+#include<bits/stdc++.h> 
+
+using namespace std;
+
+int main()
+{
+    // intializing elements int 2d array-----
+    int arr[3][2] = {{3,2 } , { 5, 6} , {7, 8}};
+    
+    // for printing array------
+    for(int i = 0; i<3; i++){
+        for(int j=0; j<2; j++){
+            
+            cout<<"element at index x["<<i<<"]"<<"["<<j<<"] :";
+            cout<<arr[i][j]<<endl;
+        }
+    }
+    
+    
+
+    return 0;
+}
+
